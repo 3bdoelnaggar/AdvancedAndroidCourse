@@ -8,9 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".CrossfadeActivity">
-        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CrossfadeActivity"></activity>
         <activity
             android:name=".LessonsActivity"
             android:label="@string/title_activity_lessons"
@@ -21,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LayoutChangeActivity"></activity>
     </application>
 
 </manifest>
