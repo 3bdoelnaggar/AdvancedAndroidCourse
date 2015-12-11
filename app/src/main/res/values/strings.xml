@@ -6,4 +6,6 @@
     <string name="fade">ِشوفتنى وانا بيحصلى Fade</string>
     <string name="title_activity_lessons">LessonsActivity</string>
     <string name="action_remove_item">Remove Item</string>
+    <string name="card_back_title">Card Back Title</string>
+    <string name="card_back_description">Card Back Description</string>
 </resources>
