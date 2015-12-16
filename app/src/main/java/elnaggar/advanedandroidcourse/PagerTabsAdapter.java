@@ -9,23 +9,23 @@ import java.util.ArrayList;
 /**
  * Created by Elnaggar on 01/12/2015.
  */
-public class PagerAdapter extends FragmentStatePagerAdapter {
-    private final ArrayList<String> photos;
+public class PagerTabsAdapter extends FragmentStatePagerAdapter {
+    private final ArrayList<String> titles;
 
-    public PagerAdapter(FragmentManager fm, ArrayList<String> Photes) {
+    public PagerTabsAdapter(FragmentManager fm, ArrayList<String> titles) {
         super(fm);
-        this.photos=Photes;
+        this.titles = titles;
 
     }
 
     @Override
     public Fragment getItem(int position) {
-        return BlankFragment.newInstance(photos.get(position));
+        return PageFragment.newInstance(titles.get(position));
     }
 
     @Override
     public int getCount() {
-        return photos.size();
+        return titles.size();
     }
 
 }

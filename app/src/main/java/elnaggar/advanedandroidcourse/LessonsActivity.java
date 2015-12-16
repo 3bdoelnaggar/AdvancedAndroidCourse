@@ -10,8 +10,9 @@ import android.widget.ListView;
 public class LessonsActivity extends ListActivity {
 
     String []classes={"elnaggar.advanedandroidcourse.MainActivity","elnaggar.advanedandroidcourse.CrossfadeActivity"
-            ,"elnaggar.advanedandroidcourse.LayoutChangeActivity","elnaggar.advanedandroidcourse.CardFlipActivity"};
-    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip"};
+            ,"elnaggar.advanedandroidcourse.LayoutChangeActivity","elnaggar.advanedandroidcourse.CardFlipActivity",
+    "elnaggar.advanedandroidcourse.MaterialActivity"};
+    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip","Material Activity"};
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {

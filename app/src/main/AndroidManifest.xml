@@ -13,7 +13,7 @@
         <activity
             android:name=".LessonsActivity"
             android:label="@string/title_activity_lessons"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".LayoutChangeActivity" />
-        <activity android:name=".CardFlipActivity"></activity>
+        <activity android:name=".CardFlipActivity" />
+        <activity
+            android:name=".MaterialActivity"
+            android:label="@string/title_activity_material"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
