@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "elnaggar.advanedandroidcourse"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:support-v4:23.1.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:design:23.1.1'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
 }

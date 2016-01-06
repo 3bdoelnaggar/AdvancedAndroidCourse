@@ -25,7 +25,8 @@
         <activity
             android:name=".MaterialActivity"
             android:label="@string/title_activity_material"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FloatingActionMenuActivity"></activity>
     </application>
 
 </manifest>

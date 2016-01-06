@@ -8,7 +8,7 @@ import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 
-public class MaterialActivity extends AppCompatActivity {
+public class MaterialActivity extends AppCompatActivity  {
     ArrayList<String>tabsTitls=new ArrayList<>();
 
     @Override

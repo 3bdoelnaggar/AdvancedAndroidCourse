@@ -11,8 +11,8 @@ public class LessonsActivity extends ListActivity {
 
     String []classes={"elnaggar.advanedandroidcourse.MainActivity","elnaggar.advanedandroidcourse.CrossfadeActivity"
             ,"elnaggar.advanedandroidcourse.LayoutChangeActivity","elnaggar.advanedandroidcourse.CardFlipActivity",
-    "elnaggar.advanedandroidcourse.MaterialActivity"};
-    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip","Material Activity"};
+    "elnaggar.advanedandroidcourse.MaterialActivity","elnaggar.advanedandroidcourse.FloatingActionMenuActivity"};
+    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip","Material Activity","Floating Action Menu"};
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
