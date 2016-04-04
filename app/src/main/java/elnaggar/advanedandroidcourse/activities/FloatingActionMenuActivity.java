@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.widget.Toast;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
+
+import elnaggar.advanedandroidcourse.R;
 
 public class FloatingActionMenuActivity extends AppCompatActivity {
 

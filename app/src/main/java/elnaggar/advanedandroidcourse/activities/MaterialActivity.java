@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
+
+import elnaggar.advanedandroidcourse.R;
+import elnaggar.advanedandroidcourse.adapters.PagerTabsAdapter;
 
 public class MaterialActivity extends AppCompatActivity  {
     ArrayList<String>tabsTitls=new ArrayList<>();

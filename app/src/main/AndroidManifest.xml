@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".CrossfadeActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.CrossfadeActivity" />
         <activity
-            android:name=".LessonsActivity"
+            android:name=".activities.LessonsActivity"
             android:label="@string/title_activity_lessons"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -20,13 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LayoutChangeActivity" />
-        <activity android:name=".CardFlipActivity" />
+        <activity android:name=".activities.LayoutChangeActivity" />
+        <activity android:name=".activities.CardFlipActivity" />
         <activity
-            android:name=".MaterialActivity"
+            android:name=".activities.MaterialActivity"
             android:label="@string/title_activity_material"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".FloatingActionMenuActivity"></activity>
+        <activity android:name=".activities.FloatingActionMenuActivity" />
+        <activity android:name=".activities.RecyclerActivity"></activity>
     </application>
 
 </manifest>

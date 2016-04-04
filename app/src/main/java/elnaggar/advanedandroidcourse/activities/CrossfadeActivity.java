@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import elnaggar.advanedandroidcourse.R;
 
 public class CrossfadeActivity extends AppCompatActivity {
     ImageView mFadeImageView;

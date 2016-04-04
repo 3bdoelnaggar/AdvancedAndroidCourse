@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.fragments;
 
 
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
+
+import elnaggar.advanedandroidcourse.R;
 
 /**
  * A simple {@link Fragment} subclass.

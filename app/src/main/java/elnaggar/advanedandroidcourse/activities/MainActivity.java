@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -11,6 +11,9 @@ import android.view.View;
 
 import java.io.File;
 import java.util.ArrayList;
+
+import elnaggar.advanedandroidcourse.R;
+import elnaggar.advanedandroidcourse.adapters.PagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
     ViewPager pager;

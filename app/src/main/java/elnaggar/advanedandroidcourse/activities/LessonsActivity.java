@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -9,10 +9,11 @@ import android.widget.ListView;
 
 public class LessonsActivity extends ListActivity {
 
-    String []classes={"elnaggar.advanedandroidcourse.MainActivity","elnaggar.advanedandroidcourse.CrossfadeActivity"
-            ,"elnaggar.advanedandroidcourse.LayoutChangeActivity","elnaggar.advanedandroidcourse.CardFlipActivity",
-    "elnaggar.advanedandroidcourse.MaterialActivity","elnaggar.advanedandroidcourse.FloatingActionMenuActivity"};
-    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip","Material Activity","Floating Action Menu"};
+    String []classes={"elnaggar.advanedandroidcourse.activities.MainActivity","elnaggar.advanedandroidcourse.activities.CrossfadeActivity"
+            ,"elnaggar.advanedandroidcourse.activities.LayoutChangeActivity","elnaggar.advanedandroidcourse.activities.CardFlipActivity",
+    "elnaggar.advanedandroidcourse.activities.MaterialActivity"
+            ,"elnaggar.advanedandroidcourse.activities.FloatingActionMenuActivity","elnaggar.advanedandroidcourse.activities.RecyclerActivity" };
+    String []names={"View Pager","Cross Fade Animition","Layout Change","Card Flip","Material Activity","Floating Action Menu","Recycler Activity"};
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {

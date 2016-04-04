@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/trika"
+        android:id="@+id/imageView_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NAME"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/imageView_pic"
+         />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="right"
+        android:textColor="#123456"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/textView_age"
+        android:layout_below="@+id/imageView_pic"
+        android:layout_alignRight="@+id/imageView_pic"
+        android:layout_alignEnd="@+id/imageView_pic" />
+
+</RelativeLayout>

@@ -1,4 +1,4 @@
-package elnaggar.advanedandroidcourse;
+package elnaggar.advanedandroidcourse.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.Random;
+
+import elnaggar.advanedandroidcourse.R;
 
 public class LayoutChangeActivity extends AppCompatActivity {
     ViewGroup container;
